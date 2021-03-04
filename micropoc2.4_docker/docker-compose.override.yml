@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  micropoc2.4_docker:
+    ports:
+      - "80"
