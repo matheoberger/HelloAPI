@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  micropoc2.4_docker:
+    image: ${DOCKER_REGISTRY-}micropoc24docker
+    build:
+      context: .
+      dockerfile: Dockerfile
